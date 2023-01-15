@@ -9,7 +9,8 @@
   --transition: .75s cubic-bezier(.2, .6, 0, 1);
 }
 
-html, body {
+html,
+body {
   height: 100%;
   overflow: hidden;
 }
@@ -25,7 +26,7 @@ html, body {
 }
 
 .swiper {
-  margin: 35px;
+  margin: 55px;
 }
 
 .slider {
@@ -43,7 +44,7 @@ html, body {
 }
 
 .slider__item {
-  width: 220px;
+  width: 260px;
   margin-bottom: calc(var(--index) * 3);
   transition: .2s ease-in-out;
   box-shadow: rgb(0 0 0 / .7) 0 0 20px 2px;
