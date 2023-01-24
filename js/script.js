@@ -8,4 +8,4 @@ document.querySelectorAll('.slider').forEach((number, item) => {
   })
 })
 
-bindSwipers(slider1, slider2, slider3)
+bindSwipers(slider1, slider2, slider3, slider4)
