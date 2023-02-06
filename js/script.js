@@ -2,10 +2,11 @@ document.querySelectorAll('.slider').forEach((number, item) => {
   window[`slider${item + 1}`] = new Swiper(number, {
     freeMode: true,
     centeredSlides: true,
+    initialSlide: 1,
     direction: 'vertical',
     mousewheel: true,
-    slidesPerView: 1.75
+    slidesPerView: 1.75,
   })
 })
 
-bindSwipers(slider1, slider2, slider3, slider4)
+bindSwipers(slider1, slider2, slider3)

@@ -26,7 +26,11 @@ body {
 }
 
 .swiper {
-  margin: 55px;
+  margin: 30px;
+}
+
+.swiper-slide {
+  height: 300px !important;
 }
 
 .slider {
@@ -44,8 +48,8 @@ body {
 }
 
 .slider__item {
-  width: 260px;
-  margin-bottom: calc(var(--index) * 3);
+  width: 200px;
+  margin-bottom: calc(var(--index) * 2);
   transition: .2s ease-in-out;
   box-shadow: rgb(0 0 0 / .7) 0 0 20px 2px;
 }
