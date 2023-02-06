@@ -5,7 +5,7 @@ document.querySelectorAll('.slider').forEach((number, item) => {
     initialSlide: 1,
     direction: 'vertical',
     mousewheel: true,
-    slidesPerView: 1.75,
+    slidesPerView: 2.25,
   })
 })
 
